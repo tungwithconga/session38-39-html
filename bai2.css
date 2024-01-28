@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.search-bar {
+    width: 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    transition: width 0.3s ease-in-out;
+}
